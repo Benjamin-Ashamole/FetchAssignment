@@ -8,21 +8,61 @@
 
 /* Begin PBXBuildFile section */
 		235278352D824C9B0043137D /* FetchTakeHomeAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235278342D824C9B0043137D /* FetchTakeHomeAssignmentApp.swift */; };
-		235278372D824C9B0043137D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235278362D824C9B0043137D /* ContentView.swift */; };
 		235278392D824C9C0043137D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 235278382D824C9C0043137D /* Assets.xcassets */; };
 		2352783C2D824C9C0043137D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2352783B2D824C9C0043137D /* Preview Assets.xcassets */; };
+		235278492D824D050043137D /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235278482D824D050043137D /* RecipeListView.swift */; };
+		2352784C2D824D2B0043137D /* RecipeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2352784B2D824D2B0043137D /* RecipeImageView.swift */; };
+		2352784E2D824D460043137D /* RecipeImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2352784D2D824D460043137D /* RecipeImageCacheManager.swift */; };
+		235278502D824D600043137D /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2352784F2D824D600043137D /* Recipe.swift */; };
+		235278522D824D8A0043137D /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235278512D824D8A0043137D /* APIService.swift */; };
+		235278542D824D9D0043137D /* RecipeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235278532D824D9D0043137D /* RecipeService.swift */; };
+		235278562D824DC40043137D /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235278552D824DC40043137D /* RecipeViewModel.swift */; };
+		235278682D824E850043137D /* RecipeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235278672D824E850043137D /* RecipeViewModelTests.swift */; };
+		2352786A2D824EA70043137D /* RecipeServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235278692D824EA70043137D /* RecipeServiceTests.swift */; };
+		2352786C2D824ED60043137D /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2352786B2D824ED60043137D /* MockURLProtocol.swift */; };
+		2352786E2D824EF80043137D /* RecipeServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2352786D2D824EF80043137D /* RecipeServiceMock.swift */; };
+		235278702D824F900043137D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2352786F2D824F900043137D /* README.md */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2352785F2D824E140043137D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 235278292D824C9B0043137D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 235278302D824C9B0043137D;
+			remoteInfo = FetchTakeHomeAssignment;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		235278312D824C9B0043137D /* FetchTakeHomeAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchTakeHomeAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		235278342D824C9B0043137D /* FetchTakeHomeAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTakeHomeAssignmentApp.swift; sourceTree = "<group>"; };
-		235278362D824C9B0043137D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		235278382D824C9C0043137D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2352783B2D824C9C0043137D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		235278482D824D050043137D /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
+		2352784B2D824D2B0043137D /* RecipeImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeImageView.swift; sourceTree = "<group>"; };
+		2352784D2D824D460043137D /* RecipeImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeImageCacheManager.swift; sourceTree = "<group>"; };
+		2352784F2D824D600043137D /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		235278512D824D8A0043137D /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		235278532D824D9D0043137D /* RecipeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeService.swift; sourceTree = "<group>"; };
+		235278552D824DC40043137D /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
+		2352785B2D824E140043137D /* FetchTakeHomeAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchTakeHomeAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		235278672D824E850043137D /* RecipeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModelTests.swift; sourceTree = "<group>"; };
+		235278692D824EA70043137D /* RecipeServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeServiceTests.swift; sourceTree = "<group>"; };
+		2352786B2D824ED60043137D /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		2352786D2D824EF80043137D /* RecipeServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeServiceMock.swift; sourceTree = "<group>"; };
+		2352786F2D824F900043137D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2352782E2D824C9B0043137D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235278582D824E140043137D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,7 +75,9 @@
 		235278282D824C9B0043137D = {
 			isa = PBXGroup;
 			children = (
+				2352786F2D824F900043137D /* README.md */,
 				235278332D824C9B0043137D /* FetchTakeHomeAssignment */,
+				2352785C2D824E140043137D /* FetchTakeHomeAssignmentTests */,
 				235278322D824C9B0043137D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				235278312D824C9B0043137D /* FetchTakeHomeAssignment.app */,
+				2352785B2D824E140043137D /* FetchTakeHomeAssignmentTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +94,12 @@
 		235278332D824C9B0043137D /* FetchTakeHomeAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				235278462D824CDB0043137D /* Views */,
+				235278452D824CD10043137D /* ViewModels */,
+				235278442D824CC80043137D /* Network */,
+				235278432D824CC10043137D /* Models */,
+				235278422D824CBB0043137D /* Misc */,
 				235278342D824C9B0043137D /* FetchTakeHomeAssignmentApp.swift */,
-				235278362D824C9B0043137D /* ContentView.swift */,
 				235278382D824C9C0043137D /* Assets.xcassets */,
 				2352783A2D824C9C0043137D /* Preview Content */,
 			);
@@ -65,6 +112,83 @@
 				2352783B2D824C9C0043137D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		235278422D824CBB0043137D /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				2352784D2D824D460043137D /* RecipeImageCacheManager.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		235278432D824CC10043137D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2352784F2D824D600043137D /* Recipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		235278442D824CC80043137D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				235278512D824D8A0043137D /* APIService.swift */,
+				235278532D824D9D0043137D /* RecipeService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		235278452D824CD10043137D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				235278552D824DC40043137D /* RecipeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		235278462D824CDB0043137D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				235278482D824D050043137D /* RecipeListView.swift */,
+				2352784B2D824D2B0043137D /* RecipeImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2352785C2D824E140043137D /* FetchTakeHomeAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				235278662D824E330043137D /* ViewModels */,
+				235278652D824E2A0043137D /* Services */,
+				235278642D824E230043137D /* Mocks */,
+			);
+			path = FetchTakeHomeAssignmentTests;
+			sourceTree = "<group>";
+		};
+		235278642D824E230043137D /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				2352786B2D824ED60043137D /* MockURLProtocol.swift */,
+				2352786D2D824EF80043137D /* RecipeServiceMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		235278652D824E2A0043137D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				235278692D824EA70043137D /* RecipeServiceTests.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		235278662D824E330043137D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				235278672D824E850043137D /* RecipeViewModelTests.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +211,24 @@
 			productReference = 235278312D824C9B0043137D /* FetchTakeHomeAssignment.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2352785A2D824E140043137D /* FetchTakeHomeAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235278612D824E140043137D /* Build configuration list for PBXNativeTarget "FetchTakeHomeAssignmentTests" */;
+			buildPhases = (
+				235278572D824E140043137D /* Sources */,
+				235278582D824E140043137D /* Frameworks */,
+				235278592D824E140043137D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				235278602D824E140043137D /* PBXTargetDependency */,
+			);
+			name = FetchTakeHomeAssignmentTests;
+			productName = FetchTakeHomeAssignmentTests;
+			productReference = 2352785B2D824E140043137D /* FetchTakeHomeAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +241,11 @@
 				TargetAttributes = {
 					235278302D824C9B0043137D = {
 						CreatedOnToolsVersion = 15.4;
+					};
+					2352785A2D824E140043137D = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+						TestTargetID = 235278302D824C9B0043137D;
 					};
 				};
 			};
@@ -116,6 +263,7 @@
 			projectRoot = "";
 			targets = (
 				235278302D824C9B0043137D /* FetchTakeHomeAssignment */,
+				2352785A2D824E140043137D /* FetchTakeHomeAssignmentTests */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +273,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				235278702D824F900043137D /* README.md in Resources */,
 				2352783C2D824C9C0043137D /* Preview Assets.xcassets in Resources */,
 				235278392D824C9C0043137D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235278592D824E140043137D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +293,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				235278372D824C9B0043137D /* ContentView.swift in Sources */,
+				235278492D824D050043137D /* RecipeListView.swift in Sources */,
+				235278562D824DC40043137D /* RecipeViewModel.swift in Sources */,
+				235278522D824D8A0043137D /* APIService.swift in Sources */,
+				2352784E2D824D460043137D /* RecipeImageCacheManager.swift in Sources */,
+				235278502D824D600043137D /* Recipe.swift in Sources */,
+				2352784C2D824D2B0043137D /* RecipeImageView.swift in Sources */,
 				235278352D824C9B0043137D /* FetchTakeHomeAssignmentApp.swift in Sources */,
+				235278542D824D9D0043137D /* RecipeService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235278572D824E140043137D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2352786C2D824ED60043137D /* MockURLProtocol.swift in Sources */,
+				2352786E2D824EF80043137D /* RecipeServiceMock.swift in Sources */,
+				235278682D824E850043137D /* RecipeViewModelTests.swift in Sources */,
+				2352786A2D824EA70043137D /* RecipeServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		235278602D824E140043137D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 235278302D824C9B0043137D /* FetchTakeHomeAssignment */;
+			targetProxy = 2352785F2D824E140043137D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2352783D2D824C9C0043137D /* Debug */ = {
@@ -280,6 +461,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +491,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +502,45 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		235278622D824E140043137D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9G586NACAB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.obillo1010.FetchTakeHomeAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchTakeHomeAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FetchTakeHomeAssignment";
+			};
+			name = Debug;
+		};
+		235278632D824E140043137D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9G586NACAB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.obillo1010.FetchTakeHomeAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchTakeHomeAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FetchTakeHomeAssignment";
 			};
 			name = Release;
 		};
@@ -339,6 +561,15 @@
 			buildConfigurations = (
 				235278402D824C9C0043137D /* Debug */,
 				235278412D824C9C0043137D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		235278612D824E140043137D /* Build configuration list for PBXNativeTarget "FetchTakeHomeAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235278622D824E140043137D /* Debug */,
+				235278632D824E140043137D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
