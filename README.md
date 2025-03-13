@@ -2,7 +2,7 @@
 
 iOS Application that fetches a list of recipes and thier corresponding remote images and displays the list. The list can be sorted by type of cuisine.
 
-<img src="docs/AllRecipes.png" width="350" height="700"> <img src="docs/Recipes-Sort-Menu-Canadian.png" width="350" height="700"> <img src="docs/Recipes-Sort-Menu.png" width="350" height="700"> <img src="docs/Recipes-Sorted-By-Canadian-Cuisine.png" width="350" height="700">
+<img src="FetchTakeHomeAssignment/docs/AllRecipes.png" width="350" height="700"> <img src="FetchTakeHomeAssignment/docs/Recipes-Sort-Menu-Canadian.png" width="350" height="700"> <img src="FetchTakeHomeAssignment/docs/Recipes-Sort-Menu.png" width="350" height="700"> <img src="FetchTakeHomeAssignment/docs/Recipes-Sorted-By-Canadian-Cuisine.png" width="350" height="700">
 
 
 ### Focus Areas: What specific areas of the project did you prioritize? Why did you choose to focus on these areas?
